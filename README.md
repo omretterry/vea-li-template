@@ -2,6 +2,7 @@
   <img width="320" src="https://i.imgur.com/9reJemW.png">
 </p>
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/omretterry/vea-li-template)
 ![GitHub last commit](https://img.shields.io/github/last-commit/omretterry/vea-li-template)
 ![GitHub all releases](https://img.shields.io/github/downloads/omretterry/vea-li-template/total)
 ![GitHub](https://img.shields.io/github/license/omretterry/vea-li-template)
