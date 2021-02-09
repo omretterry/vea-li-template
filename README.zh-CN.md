@@ -6,7 +6,7 @@
 
 </p>
 
-简体中文 | [English](./README.md)
+[English](./README.md) | 简体中文
 
 ## 特别鸣谢
 本项目是在[vue-element-admin](https://panjiachen.github.io/vue-element-admin)基础上进行的简化修改，完整后台前端解决方案请转跳至[vue-element-admin github项目地址](https://github.com/PanJiaChen/vue-element-admin/)查看。
