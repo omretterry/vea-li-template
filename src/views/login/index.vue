@@ -138,6 +138,10 @@ export default {
           this.loading = true
           this.$store.dispatch('user/login', this.loginForm)
             .then(() => {
+              this.$store.dispatch('user/getInfo')
+              // TODO: get user permission
+              const permission = {}
+              this.$store.dispatch('permission/generateRoutes', permission)
               this.$router.push({ path: this.redirect || '/', query: this.otherQuery })
               this.loading = false
             })

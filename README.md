@@ -2,6 +2,8 @@
   <img width="320" src="https://i.imgur.com/9reJemW.png">
 </p>
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/omretterry/vea-li-template)
+[![Build Status](https://travis-ci.com/omretterry/vea-li-template.svg?branch=master)](https://travis-ci.com/omretterry/vea-li-template)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/omretterry/vea-li-template)
 ![GitHub last commit](https://img.shields.io/github/last-commit/omretterry/vea-li-template)
 ![GitHub all releases](https://img.shields.io/github/downloads/omretterry/vea-li-template/total)
@@ -35,8 +37,10 @@ Tags：
 
 - Build tools
  - [!] Mock - Keep only the user logged in and out apis
+  - [!] edit user login response data
  - [-] plop - Microgenerator framework (code generation tool)
  - [-] the environment files of production environment and other environments
+ - [+] add vuex-persistedstate
 
 - Projects
  - [-] Role management module
@@ -45,6 +49,7 @@ Tags：
  - [!] User Login
   - [-] Delete third party login
   - [-] Deletes user role judgment
+  - [!] edit user login router guard
 
  - [!] Page layout
   - [.] Only the full-screen function button is retained
@@ -107,7 +112,7 @@ npm run preview -- --report
 npm run lint
 
 # code format check and auto fix
-npm run lint -- --fix
+npm run lint:fix
 ```
 
 ## Changelog

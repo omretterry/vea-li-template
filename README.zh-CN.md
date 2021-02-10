@@ -2,6 +2,8 @@
   <img width="320" src="https://i.imgur.com/9reJemW.png">
 </p>
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/omretterry/vea-li-template)
+[![Build Status](https://travis-ci.com/omretterry/vea-li-template.svg?branch=master)](https://travis-ci.com/omretterry/vea-li-template)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/omretterry/vea-li-template)
 ![GitHub last commit](https://img.shields.io/github/last-commit/omretterry/vea-li-template)
 ![GitHub all releases](https://img.shields.io/github/downloads/omretterry/vea-li-template/total)
@@ -35,16 +37,19 @@
 
 - 构建工具
  - [!] Mock - 仅保留用户登录、退出模拟接口
+  - [!] 修改用户登录数据内容
  - [-] plop - 微生成器框架（代码生成工具）
  - [-] 正式环境等多环境构建环境变量文件
 
 - 项目
  - [-] 角色管理模块
  - [-] 动态路由
+ - [+] 添加vuex-persistedstate
 
  - [!] 用户登录
   - [-] 删除第三方登录部分
   - [-] 删除用户角色判断
+  - [!] 修改用户登录路由守卫
 
  - [!] 页面布局
   - [.] 仅保留全屏功能按钮
@@ -107,7 +112,7 @@ npm run preview -- --report
 npm run lint
 
 # 代码格式检查并自动修复
-npm run lint -- --fix
+npm run lint:fix
 ```
 
 ## Changelog
