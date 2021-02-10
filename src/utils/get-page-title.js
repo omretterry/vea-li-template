@@ -1,6 +1,4 @@
-import defaultSettings from '@/settings'
-
-const title = defaultSettings.title || 'Vue Element Admin'
+const title = 'Vea Li Template'
 
 export default function getPageTitle(pageTitle) {
   if (pageTitle) {

@@ -26,7 +26,6 @@ const store = new Vuex.Store({
       paths: [
         'app',
         'permission',
-        'settings',
         'user'
       ]
     }
