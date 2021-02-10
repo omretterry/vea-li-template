@@ -73,6 +73,9 @@ Tags：
 - Page function section
   - Only some error pages are kept, and other feature demo pages are deleted. Similarly, component functionality needs to be adapted to the actual development needs and should not be used as base template content
   - Keep the page header breadcrumbs
+- User login process adjustment
+  - Replace user roles with Permission to obtain user information after login and obtain corresponding permissions for the user. Determines the menu that the user can access based on the user's permissions
+  - Added vuex-persistedState to optionally persist part of the store
 
 ## Getting started
 
